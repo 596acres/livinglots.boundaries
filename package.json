@@ -1,0 +1,22 @@
+{
+  "name": "livinglots.boundaries",
+  "version": "0.1.0",
+  "description": "Living Lots boundaries",
+  "main": "src/index.js",
+  "dependencies": {
+    "leaflet": "~0.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/596acres/livinglots.boundaries.git"
+  },
+  "author": "Eric Brelsford",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/596acres/livinglots.boundaries/issues"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "livinglots.boundaries",
+  "version": "0.1.0",
+  "homepage": "https://github.com/596acres/livinglots.boundaries",
+  "authors": [
+    "Eric Brelsford <ebrelsford@gmail.com>"
+  ],
+  "description": "Living Lots boundaries",
+  "dependencies": {
+    "leaflet": ">=0.7.3"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
