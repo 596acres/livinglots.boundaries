@@ -5,7 +5,7 @@
 // (boundarieschange) when this layer changes.
 //
 
-L.Map.include({
+var mixin = {
     boundariesLayer: null,
 
     _initBoundaries: function () {
@@ -30,6 +30,14 @@ L.Map.include({
         }
     }
 
-});
+};
 
-L.Map.addInitHook('_initBoundaries');
+module.exports = {
+    initialize: function (mapClass) {
+        mapClass = mapClass || L.Map;
+        mapClass.include(mixin);
+        mapClass.addInitHook('_initBoundaries');
+    },
+
+    mixin: mixin
+};
